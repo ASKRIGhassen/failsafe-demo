@@ -19,6 +19,6 @@ public class Calculator {
             throw new RuntimeException("Division by 0 not allowed");
         }
 
-        return a / b;
+        return a / (double) b;
     }
 }
